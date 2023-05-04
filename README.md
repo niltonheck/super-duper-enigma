@@ -6,7 +6,7 @@ This draft was inspired by the [emmaguo13/zk-blind](https://github.com/emmaguo13
 
 ## Scenario:
 
-Let's say that the JWT has a property call "userid" and the value is "1234". The contract will validate the JWT and extract the "userid" property and compare it against the expected value "1234" (public signal?). If the values match, the contract will store the userid and return true, otherwise it will return false.
+Let's say that the JWT has a property named "userid" and the value is "1234". The contract will validate the JWT and extract the "userid" property and compare it against the expected value "1234" (public signal? claims?). If the values match, the contract will store the userid and return true, otherwise it will return false.
 
 ## Files
 
