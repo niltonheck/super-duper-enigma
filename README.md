@@ -1,6 +1,6 @@
 # zk-jwt-draft
 
-The idea is to validate the JWT onchain (against it's modulus conterpart) and than extract the payload and validate it against the expected values.
+The idea is to validate the JWT onchain (against it's modulus conterpart, using ZKP) and than extract the payload and validate it against the expected values.
 
 This draft was inspired by the [emmaguo13/zk-blind](https://github.com/emmaguo13/zk-blind) repository and still uses some of the code from it.
 
